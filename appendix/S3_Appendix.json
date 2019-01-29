@@ -1,0 +1,28 @@
+{
+   "conclusion": [
+      {  
+         "article":"8",
+         "details":[  
+            "Article 8 - Expulsion"
+         ],
+         "element":"No violation of Article 8 - Right to respect for private and family life",
+         "mentions":[  
+            "Conditional",
+            "Nigeria"
+         ],
+         "type":"no-violation"
+      },
+      {  
+         "article":"3",
+         "details":[  
+            "Article 3 - Degrading treatment",
+            "Inhuman treatment"
+         ],
+         "element":"No violation of Article 3 - Prohibition of torture",
+         "mentions":[  
+            "Substantive aspect"
+         ],
+         "type":"no-violation"
+      }
+   ]
+}

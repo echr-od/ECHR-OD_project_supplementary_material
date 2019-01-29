@@ -1,0 +1,22 @@
+{
+    "conclusion": [
+        {
+            "article": "6", 
+            "element": "Violation of Art. 6-1", 
+            "type": "violation"
+        }, 
+        {
+            "article": "p1", 
+            "element": "No violation of P1-1", 
+            "type": "no-violation"
+        }, 
+        {
+            "element": "Pecuniary damage - claim dismissed", 
+            "type": "other"
+        }, 
+        {
+            "element": "Non-pecuniary damage - financial award", 
+            "type": "other"
+        }
+    ]
+}
