@@ -1,10 +1,10 @@
-# ECHR-OD Project Supplementary Material
+# Supplementary material description
 
 Supplementary material for the paper entitled "European Court of Human Rights Open Data project".
 This supplementary material is broken down into two parts:
 
 1. Additional dataset format examples
-2. Detailed results of the experiements
+2. Detailed results of the experiments
 
 # Additional dataset format examples
 
