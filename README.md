@@ -14,6 +14,8 @@ This supplementary material is broken down into two parts:
 - **S4 Appendix.** [Example of decision body information.](appendix/S4_Appendix.json)
 - **S5 Appendix.** [Tree structure of a parsed judgment file.](appendix/S5_Appendix.json)
 
-# Detailed results of the experiements
+# Detailed results of the experiments
 
-- TBD
+- [**Binary**](binary.md)
+- [**Multiclass**](multiclass.md)
+- [**Multilabel**](multilabel.md)
