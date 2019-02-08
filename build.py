@@ -83,10 +83,10 @@ def main():
             name = t.split('.', 1)[0]
             if 'summary' in name:
                 metric = name.split('_', 1)[1][::-1].split('_', 1)[-1][::-1]
-                content += '[Summary {}]({})\n\n'.format(MAP_METRIC[metric],'appendix/tables/{}'.format(t))
+                content += '![Summary {}]({})\n\n'.format(MAP_METRIC[metric],'appendix/tables/{}'.format(t))
             elif 'best' in name:
                 metric = name.split('_', 1)[1][::-1].split('_', 1)[-1][::-1]
-                content += '[Best {}]({})\n\n'.format(MAP_METRIC[metric],'appendix/tables/{}'.format(t))
+                content += '![Best {}]({})\n\n'.format(MAP_METRIC[metric],'appendix/tables/{}'.format(t))
             else:
                 metric = name.split('_', 1)[1][::-1].split('_', 2)[-1][::-1]
                 article = name.split('_', 1)[1][::-1].split('_', 1)[:-1][-1]

@@ -10,19 +10,19 @@
 
 ![Article 2 F1-Score (weighted)](appendix/tables/binary_f1_weighted_article_2.png)
 
-[Summary Accuracy](appendix/tables/binary_acc_summary.png)
+![Summary Accuracy](appendix/tables/binary_acc_summary.png)
 
 ![Article 6 Matthew Correlation Coefficient](appendix/tables/binary_mcc_article_6.png)
 
-[Summary Recall](appendix/tables/binary_recall_summary.png)
+![Summary Recall](appendix/tables/binary_recall_summary.png)
 
 ![Article 8 Precision](appendix/tables/binary_precision_article_8.png)
 
 ![Article 43 Matthew Correlation Coefficient](appendix/tables/binary_mcc_article_34.png)
 
-[Summary F1-Score (weighted)](appendix/tables/binary_f1_weighted_summary.png)
+![Summary F1-Score (weighted)](appendix/tables/binary_f1_weighted_summary.png)
 
-[Best Precision](appendix/tables/binary_precision_best.png)
+![Best Precision](appendix/tables/binary_precision_best.png)
 
 ![Article 8 Matthew Correlation Coefficient](appendix/tables/binary_mcc_article_8.png)
 
@@ -50,7 +50,7 @@
 
 ![Article 11 Accuracy](appendix/tables/binary_acc_article_11.png)
 
-[Best Matthew Correlation Coefficient](appendix/tables/binary_mcc_best.png)
+![Best Matthew Correlation Coefficient](appendix/tables/binary_mcc_best.png)
 
 ![Article 1 Precision](appendix/tables/binary_precision_article_1.png)
 
@@ -60,7 +60,7 @@
 
 ![Article 2 Recall](appendix/tables/binary_recall_article_2.png)
 
-[Summary Matthew Correlation Coefficient](appendix/tables/binary_mcc_summary.png)
+![Summary Matthew Correlation Coefficient](appendix/tables/binary_mcc_summary.png)
 
 ![Article 5 Matthew Correlation Coefficient](appendix/tables/binary_mcc_article_5.png)
 
@@ -88,17 +88,17 @@
 
 ![Article 6 F1-Score (weighted)](appendix/tables/binary_f1_weighted_article_6.png)
 
-[Best F1-Score (weighted)](appendix/tables/binary_f1_weighted_best.png)
+![Best F1-Score (weighted)](appendix/tables/binary_f1_weighted_best.png)
 
 ![Article 2 Matthew Correlation Coefficient](appendix/tables/binary_mcc_article_2.png)
 
 ![Article 01 Matthew Correlation Coefficient](appendix/tables/binary_mcc_article_10.png)
 
-[Best Accuracy](appendix/tables/binary_acc_best.png)
+![Best Accuracy](appendix/tables/binary_acc_best.png)
 
 ![Article 1 F1-Score (weighted)](appendix/tables/binary_f1_weighted_article_1.png)
 
-[Summary Precision](appendix/tables/binary_precision_summary.png)
+![Summary Precision](appendix/tables/binary_precision_summary.png)
 
 ![Article 6 Precision](appendix/tables/binary_precision_article_6.png)
 
@@ -106,7 +106,7 @@
 
 ![Article 01 F1-Score (weighted)](appendix/tables/binary_f1_weighted_article_10.png)
 
-[Best Recall](appendix/tables/binary_recall_best.png)
+![Best Recall](appendix/tables/binary_recall_best.png)
 
 ![Article 3 Recall](appendix/tables/binary_recall_article_3.png)
 
