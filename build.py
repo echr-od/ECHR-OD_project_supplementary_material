@@ -32,7 +32,7 @@ def main():
         for t in tables:
             name = t.split('.', 1)[0]
             metric = name.split('_', 1)[1]
-            content += '[{}]({})\n\n'.format(MAP_METRIC[metric],'appendix/tables/{}'.format(t))
+            content += '![{}]({})\n\n'.format(MAP_METRIC[metric],'appendix/tables/{}'.format(t))
 
         content = "## Confusion Matrix\n\n"
         tables = [f for f in os.listdir('appendix/cm') if f.endswith('.png') and f.startswith('multiclass')]
@@ -59,7 +59,7 @@ def main():
         
         for method, flavors in order.iteritems():
             for flavor in flavors:
-                content += '[{} - {}]({})\n\n'.format(method.replace('_', ' ').title(), flavor.replace('_', ' ').title(),
+                content += '![{} - {}]({})\n\n'.format(method.replace('_', ' ').title(), flavor.replace('_', ' ').title(),
                     'appendix/cm/multiclass_cm_test_{}_{}.png'.format(method, flavor))
 
         file.write(content)
@@ -71,7 +71,7 @@ def main():
         for t in tables:
             name = t.split('.', 1)[0]
             metric = name.split('_', 1)[1]
-            content += '[{}]({})\n\n'.format(MAP_METRIC[metric],'appendix/tables/{}'.format(t))
+            content += '![{}]({})\n\n'.format(MAP_METRIC[metric],'appendix/tables/{}'.format(t))
 
         file.write(content)
 
@@ -90,14 +90,14 @@ def main():
             else:
                 metric = name.split('_', 1)[1][::-1].split('_', 2)[-1][::-1]
                 article = name.split('_', 1)[1][::-1].split('_', 1)[:-1][-1]
-                content += '[Article {} {}]({})\n\n'.format(article, MAP_METRIC[metric],'appendix/tables/{}'.format(t))
+                content += '![Article {} {}]({})\n\n'.format(article, MAP_METRIC[metric],'appendix/tables/{}'.format(t))
 
         content += "## Learning Curves\n\n"
         tables = [f for f in os.listdir('appendix/lc') if f.endswith('.png')]
         for t in tables:
             name = t.split('.', 1)[0]
             article = name[3:].replace('_', ' ').title()
-            content += '[{}]({})\n\n'.format(article,'appendix/lc/{}'.format(t))
+            content += '![{}]({})\n\n'.format(article,'appendix/lc/{}'.format(t))
 
         file.write(content)
 
